@@ -7,6 +7,44 @@ Users can register, log in, browse flights, view flight details, book seats, see
 their own bookings, and log out. Authentication uses JWT access and refresh
 tokens.
 
+## Screenshots
+
+### Home Page
+
+<p align="center">
+  <img src="./pics/main.png" alt="KurdFlight home page" width="900">
+</p>
+
+### Available Flights
+
+<p align="center">
+  <img src="./pics/flights.png" alt="Available flights page" width="900">
+</p>
+
+### Flight Detail
+
+<p align="center">
+  <img src="./pics/flight%20detail.png" alt="Flight detail page" width="900">
+</p>
+
+### Sign Up
+
+<p align="center">
+  <img src="./pics/sign%20up.png" alt="Sign up page" width="900">
+</p>
+
+### Log In
+
+<p align="center">
+  <img src="./pics/log%20in.png" alt="Log in page" width="900">
+</p>
+
+### My Bookings
+
+<p align="center">
+  <img src="./pics/my%20booking.png" alt="My bookings page" width="900">
+</p>
+
 ## Tech Stack
 
 - Backend: Django, Django REST Framework
@@ -22,6 +60,7 @@ tokens.
 ├── config/          Django project settings and main URLs
 ├── flights/         Django app for airports, flights, bookings, auth views
 ├── frontend/        React frontend
+├── pics/            README screenshots
 ├── manage.py
 └── README.md
 ```
